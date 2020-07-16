@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <p id="input"></p>
+    <script> 
+
+    var num = prompt("Enter the number: ");
+    if ((num % 2) == 0) {
+        //on the web page
+        document.getElementById("input").innerHTML ="The number entered is " + num + " and Number is even ☺";
+        //at the console
+        console.log("The number entered is " + num + " and Number is even ☺");
+    }
+    else{
+        document.getElementById("input").innerHTML ="The number entered is " + num + " and Number is odd ☺";
+        console.log("The number entered is " + num + " and Number is odd ☺");
+    }
+
+</script>
+
+</head>
+<body>
+
+</body>
+</html>
